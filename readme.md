@@ -1,6 +1,6 @@
 # Python Big O Complexity
 
-A python script using pyplot (matlab like) lib to demonstrate big-o complexities of common algorithms.
+Python script using pyplot (Matlab-like) lib to demonstrate big-o complexities of standard algorithms.
 Big O notation is used to classify algorithms based on their time and space complexity.
 
 
@@ -17,14 +17,14 @@ pip install pyqt5
 
 ## Common types of time complexities in Big O Notation
 
-First we will initialize some number list to help to explain the different types of algorithm in Big O Notation.
+First, we will initialize some numbers list to help to explain the different types of algorithms in Big O Notation.
 
 ```python
 numbersList = [1, 2, 3, 4, 5]
 ```
 
 ### 1. Constant O(1)
- In this type, the execution time is independent of the size of the input and will always take same amount of time to be executed.
+ In this type, the execution time is independent of the size of the input and will always take the same amount of time to execute.
 
 ```python
 def constant(n):
@@ -35,7 +35,7 @@ constant(numbersList) # Output: 1
 
 
 ### 2. Linear O(n)
-This type algorithm will have a linear time complexity, and will run linearly with the input size.
+This type of algorithm will have a linear time complexity and will run linearly with the input size.
 
 ```python
 def linear(n):
@@ -53,7 +53,7 @@ linear(numbersList)
 ```
 
 ### 3. Quadratic - O(n<sup>2</sup>) - polynomial
-An algorithm has quadratic time complexity if the time to execution it is proportional to the square of the input size, in few words, think of Linear but squared
+An algorithm has quadratic time complexity if the time to execute it is proportional to the square of the input size. In a few words, think of Linear but squared
 
 ```python
 def quadratic(n):
